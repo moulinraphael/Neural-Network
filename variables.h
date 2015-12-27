@@ -1,0 +1,10 @@
+int _entrees = TAILLE_IMAGES * TAILLE_IMAGES;
+int _sorties = NOMBRE_CARACS;
+int nombreApprentissages;
+int _couches;
+int *couches = NULL;
+float ***poids = NULL;
+float ***ajout = NULL;
+float **gives = NULL;
+float **delta = NULL;
+float entrees[NOMBRE_CARACS][NOMBRE_SERIES][TAILLE_IMAGES * TAILLE_IMAGES];

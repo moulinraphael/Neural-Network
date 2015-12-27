@@ -1,0 +1,12 @@
+float poidsAleatoire (void);
+void calculerEtapes (float entree[]);
+float f (float);
+float df (float);
+void modifierPoids (int chiffre, int numero);
+void sauverReseau (void);
+void chargerReseau (void);
+float calculerErreur (int chiffre, int numero);
+void detruireReseau (void);
+void creerReseau (void);
+void imageToVect (int chiffre, int numero, int reconnaissance);
+void _pause();
